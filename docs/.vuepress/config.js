@@ -4,7 +4,7 @@ module.exports = {
 	dest:path.join(__dirname, '../../dist'),
 	// 设置正在使用的语言
 	lang: "zh-CN",
-	base: "/",
+	base: ".",
 	title: "凌览的知识库",
 	markdown: {
 		lineNumbers: true // 代码块显示行号
