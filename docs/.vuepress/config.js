@@ -1,5 +1,7 @@
 const sidebar = require('./sidebar/sidebar')
+const path = require('path')
 module.exports = {
+	dest:path.join(__dirname, '../../dist'),
 	// 设置正在使用的语言
 	lang: "zh-CN",
 	base: "/",
