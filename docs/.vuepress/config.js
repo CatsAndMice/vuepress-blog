@@ -3,7 +3,7 @@ const path = require('path')
 module.exports = {
 	// 设置正在使用的语言
 	lang: "zh-CN",
-	base: "/blog",
+	base: "/",
 	title: "凌览的知识库",
 	markdown: {
 		lineNumbers: true // 代码块显示行号
