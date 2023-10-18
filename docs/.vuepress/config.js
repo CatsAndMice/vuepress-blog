@@ -1,10 +1,9 @@
 const sidebar = require('./sidebar/sidebar')
 const path = require('path')
 module.exports = {
-	dest:path.join(__dirname, '../../dist'),
 	// 设置正在使用的语言
 	lang: "zh-CN",
-	base: ".",
+	base: "/blog",
 	title: "凌览的知识库",
 	markdown: {
 		lineNumbers: true // 代码块显示行号
