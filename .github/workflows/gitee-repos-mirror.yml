@@ -14,9 +14,7 @@ jobs:
         with: 
           node-version: 14 # node版本
       - name: Install and Build
-        run: npm install
-        run: npm run docs:build
-
+        run: npm install && npm run docs:build
       - uses: wearerequired/git-mirror-action@master
         env:
           SSH_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY }}
