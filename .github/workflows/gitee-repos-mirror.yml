@@ -11,11 +11,12 @@ jobs:
       # 步骤2 给当前服务器安装node
       - name: use node
         uses: actions/setup-node@v2
-        with: node-version: 14 # node版本
+        with: 
+          node-version: 14 # node版本
       - name: Install and Build
         run: npm install
         run: npm run docs:build
-        
+
       - uses: wearerequired/git-mirror-action@master
         env:
           SSH_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY }}
