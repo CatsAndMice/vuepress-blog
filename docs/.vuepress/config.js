@@ -5,6 +5,7 @@ module.exports = {
 	lang: "zh-CN",
 	base: "/vuepress-blog/",
 	title: "凌览的知识库",
+	logo: 'https://www.linglan01.cn/favicon.JPG',//网站logo
 	markdown: {
 		lineNumbers: true // 代码块显示行号
 	},
@@ -12,6 +13,7 @@ module.exports = {
 	themeConfig: {
 		// 个人信息的头像
 		authorAvatar: 'https://www.linglan01.cn/favicon.JPG',
+		author: '凌览',
 		// 内置搜索
 		search: true,
 		searchMaxSuggestions: 10,
@@ -19,6 +21,7 @@ module.exports = {
 		lastUpdated: '更新时间',
 		// 设置时区偏移量（8小时）
 		timezoneOffset: 8 * 60 * 60 * 1000,
+		title:'凌览的知识库',
 		nav: [
 			{ text: '博客', link: 'https://linglan01.cn/' },
 			{ text: '掘金', link: 'https://juejin.cn/user/3350967174565198' },
